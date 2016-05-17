@@ -1,0 +1,30 @@
+body {
+    background-color: $background;
+}
+
+header {
+    align-items: center;
+    background-color: $primary;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color: $white;
+    display: flex !important;
+    height: 250px;
+}
+
+header h2 {
+    font-weight: 300;
+    margin: 0;
+}
+
+header h5 {
+    font-weight: 200;
+}
+
+.showcase {
+    margin-top: 100px;
+}
+
+.card a {
+    float: right;
+    margin-top: 15px;
+}
